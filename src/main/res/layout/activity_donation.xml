@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/foodItem"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:autofillHints="food item"
+        android:hint="@string/food_item"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:autofillHints="quantity"
+        android:hint="@string/quantity"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:autofillHints="location"
+        android:hint="@string/location"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/submitDonationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Donation"/>
+</LinearLayout>

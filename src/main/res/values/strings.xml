@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MealMatch</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="view_donations">View Donations</string>
+    <string name="submit_donation">Submit Donation</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="food_item">Food Item</string>
+    <string name="quantity">Quantity</string>
+    <string name="location">Location</string>
+</resources>
